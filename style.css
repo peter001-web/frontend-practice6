@@ -50,3 +50,16 @@ body{
     cursor: pointer;
     color: black;
 }
+
+.intro h1{
+    font-size: 90px;
+    margin-top: 100px;
+    font-weight: 200;
+    font-family: New;
+    width: 100%;
+    float: left;
+    /* font-size: 100px; */
+    color: #090808;
+    text-align: center;
+    text-transform: uppercase;
+}
