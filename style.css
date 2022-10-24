@@ -5,17 +5,26 @@ body{
 .nav-bar{
     display: flex;
     gap: 40px;
+
 }
 
-.nav-logo{
+.nav-logo img{
+    margin-top: 10px;
+}
+
+.nav-item{
     display: flex;
-    margin-top: 14PX;
-    font-size: 20PX;
+    /* margin-top: 14PX; */
+    font-size: 18PX;
+    margin-top: 20px;
+
 
 }
 
 .nav-call{
     display: flex;
     gap: 40px;
+    font-size: 19px;
+    margin-top: 20px;
 
 }
