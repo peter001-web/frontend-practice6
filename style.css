@@ -1,3 +1,21 @@
 body{
     background: url(./images/header-bg.png)  center fixed; 
 }
+
+.nav-bar{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-logo{
+    display: flex;
+    margin-top: 14PX;
+    font-size: 20PX;
+
+}
+
+.nav-call{
+    display: flex;
+    gap: 40px;
+
+}
