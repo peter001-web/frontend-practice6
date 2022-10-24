@@ -1,20 +1,22 @@
 *{
     /* border: red solid 1px    ; */
+    /* margin: 0; */
+    padding: 0;
 }
 
 .w{
-    background: url(./images/banner-bg1.png)  center ; 
+    /* background: url(./images/banner-bg1.png)  center ;  */
     /* background-size: cover;
     position: relative;
 height: 1500px; */
 /* width: 100%; */
 
-width: 100%;
-float: left;
+/* width: 100%; */
+/* float: left; */
 /* background-image: url(../images/banner-bg.png); */
-height: auto;
-padding-bottom: 50px;
-background-size: 100%;
+/* height: au/to; */
+/* padding-bottom: 50px; */
+/* background-size: 100%; */
 /* background-repeat: no-repea */
 }
 
@@ -66,24 +68,27 @@ background-size: 100%;
     color: black;
 }
 
-.q{
-    margin-bottom: 200px;
-    /* margin-top: 100px; */
+.p1{
     text-align: center;
+    width: 40%;
+    margin: auto;
+    line-height: 1.4em;
     /* position: absolute; */
+    margin-top: -10px;
     /* top: 50%; */
     /* left:50% ; */
-    color: black;
 }
 
+
+
 .intro h1{
-    margin-top: 70px;
-    font-weight: 200;
+    font-weight: 100;
     font-family: New;
+    padding-top: 100px;
     width: 100%;
-    float: left;
     font-size: 100px;
     color: #090808;
     text-align: center;
+    margin: auto;
     text-transform: uppercase;
 }
