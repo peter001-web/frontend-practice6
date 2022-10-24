@@ -2,14 +2,23 @@ body{
     background: url(./images/header-bg.png)  center fixed; 
 }
 
+@font-face{
+    font-family:'New';
+    src: url(./Fonts/poppins.ttf);
+}
+
+
 .nav-bar{
     display: flex;
     gap: 40px;
+    /* width: 90%; */
+    margin-left: 30px;
 
 }
 
 .nav-logo img{
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .nav-item{
@@ -17,14 +26,27 @@ body{
     /* margin-top: 14PX; */
     font-size: 18PX;
     margin-top: 20px;
+    font-family: New;
+    cursor: pointer;
+    transition: ease-in all 0.5s;
+}
 
-
+.nav-item :hover{
+    color:#FFB607 ;
 }
 
 .nav-call{
     display: flex;
-    gap: 40px;
-    font-size: 19px;
+    gap: 10px;
+    font-size: 20px;
     margin-top: 20px;
+    color: #FFB607;
+    font-family: New;
+}
 
+.login{
+    /* gap: 0px; */
+    display: flex;
+    cursor: pointer;
+    color: black;
 }
