@@ -6,14 +6,15 @@
 
 .w{
     /* background: url(./images/banner-bg1.png)  center ;  */
-    /* background-size: cover;
+    width: 100%;
+    background-size: cover;
     position: relative;
-height: 1500px; */
+/* height: 1500px; */
 /* width: 100%; */
 
 /* width: 100%; */
 /* float: left; */
-/* background-image: url(../images/banner-bg.png); */
+background-image: url(../images/banner-bg.png);
 /* height: au/to; */
 /* padding-bottom: 50px; */
 /* background-size: 100%; */
@@ -28,7 +29,7 @@ height: 1500px; */
 .nav-bar{
     display: flex;
     gap: 40px;
-    /* width: 90%; */
+    width: 90%;
     margin-left: 30px;
 
 }
@@ -48,7 +49,7 @@ height: 1500px; */
     transition: ease-in all 0.5s;
 }
 
-.nav-item :hover{
+.nav-item:hover{
     color:#FFB607 ;
 }
 
@@ -66,6 +67,7 @@ height: 1500px; */
     display: flex;
     cursor: pointer;
     color: black;
+    width: 1%;
 }
 
 .p1{
@@ -74,7 +76,7 @@ height: 1500px; */
     margin: auto;
     line-height: 1.4em;
     /* position: absolute; */
-    margin-top: -10px;
+    margin-top: 17px;
     /* top: 50%; */
     /* left:50% ; */
 }
@@ -83,7 +85,7 @@ height: 1500px; */
 
 .intro h1{
     font-weight: 100;
-    font-family: New;
+
     padding-top: 100px;
     width: 100%;
     font-size: 100px;
@@ -92,3 +94,23 @@ height: 1500px; */
     margin: auto;
     text-transform: uppercase;
 }
+
+.intro button{
+    font-size: 18px;
+    color: white;
+    background-color: #FFB607;
+    padding: 17px 39px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 300px;
+    border-style: none;
+    margin-left: 580px;
+    margin-bottom: 80px;
+    transition:  0.5s;
+    cursor: pointer;
+}
+
+.intro button :hover{
+    background-color: black;
+}
+
