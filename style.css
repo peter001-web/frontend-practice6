@@ -2,19 +2,22 @@
     /* border: red solid 1px    ; */
     /* margin: 0; */
     padding: 0;
+    /* width: 100g%; */
+
 }
 
 .w{
     /* background: url(./images/banner-bg1.png)  center ;  */
-    width: 100%;
-    background-size: cover;
-    position: relative;
+    /* width: 100%; */
+    /* background-size: cover; */
+    /* position: relative; */
+    /* background-color: #090808; */
 /* height: 1500px; */
 /* width: 100%; */
 
 /* width: 100%; */
 /* float: left; */
-background-image: url(../images/banner-bg.png);
+/* background-image: url(./images/32048_776136.png.jpg); */
 /* height: au/to; */
 /* padding-bottom: 50px; */
 /* background-size: 100%; */
@@ -28,9 +31,9 @@ background-image: url(../images/banner-bg.png);
 
 .nav-bar{
     display: flex;
-    gap: 40px;
-    width: 90%;
-    margin-left: 30px;
+    gap: 30px;
+    /* width: 100%; */
+    /* margin-left: 30px; */
 
 }
 
